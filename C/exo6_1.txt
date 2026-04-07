@@ -1,0 +1,15 @@
+Exercice 1:
+a) Capacité totale du disque:
+2 plateaux x 2 faces x 1000 cylindres x 60 secteurs x 1024 octets = 4 x 61,44 = 245,76Mo
+
+b)Position de l'octet 300 du secteur 45 du cylindre 350 de la face 2 du premier plateau
+61,44 x 2(deux premières faces avant) + 0,06144 x 350(350 cylindres) + 1024 x 45(secteurs) + 300(octet) = 144 430 380 =144, 43
+
+c)secteur et position de l'octet numéro 78000000
+780 = 1 x 61,44 + 16,56 (face 1)
+16560000 % 61440 = 269, 53 (cylindre 269)
+16560000 - (269 x 61440) = 32640
+32640 % 1024 = 31, 875 (secteur 31)
+32640 - (31 x 1024) = 896
+---> Position 896, secteur 31, cylindre 269, face 1
+
